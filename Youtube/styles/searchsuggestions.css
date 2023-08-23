@@ -1,0 +1,16 @@
+.search-suggestions{
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.search-suggestions button{
+  padding:10px 8px;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-left:5px;
+}
