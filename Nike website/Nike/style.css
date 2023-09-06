@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+}
+
+
+
+.full-top {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.jordan {
+  padding-left: 50px;
+  float: left;
+}
+
+.logo1 {
+  width: 18px;
+}
+
+.list .row {
+  float: right;
+  padding-right: 52px;
+}
+
+.list .row ul li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  float: left;
+  padding-left: 12px;
+  margin-left: auto;
+  font-size: 12px;
+}
+
+.list .row ul li a{
+  text-decoration: none;
+  color: grey;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.list .row ul li a:hover {
+  color: black;
+}
+
+.list .row ul li span {
+  padding-left: 15px;
+}
+
+.brand-logo {
+  width: 3rem;
+}
+
+.text-intro h1 {
+  text-transform: uppercase; font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+
+.text-intro p {
+  margin: 0;
+}
+
+.topic {
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+
+
+
+.row img {
+  width: 100%; 
+  margin-top: 12px;
+}
+
+.essentials {
+  padding-top: 100px;
+}
+
+.essentials img {
+  width: 380px;
+  height: 500px;
+  padding-left: auto;
+  object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 540px){
+  .essentials img {
+    margin-left: 12%;
+  }
+
+  .essentials button {
+    position: relative;
+    left: 57px;
+  }
+}
+
